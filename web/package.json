@@ -1,0 +1,38 @@
+{
+    "name": "shopify-app-template-node",
+    "version": "1.0.0",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+      "debug": "node --inspect-brk index.js",
+      "dev": "cross-env NODE_ENV=development nodemon index.js --ignore ./frontend",
+      "serve": "cross-env NODE_ENV=production node index.js"
+    },
+    "type": "module",
+    "engines": {
+      "node": ">=14.13.1"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.10.6",
+      "@popperjs/core": "^2.11.7",
+      "@shopify/shopify-app-express": "^2.0.0",
+      "@shopify/shopify-app-session-storage-sqlite": "^1.2.1",
+      "axios": "^1.4.0",
+      "clsx": "^1.2.1",
+      "compression": "^1.7.4",
+      "cross-env": "^7.0.3",
+      "faker": "^6.6.6",
+      "react-contenteditable": "^3.3.7",
+      "react-dom": "^18.2.0",
+      "react-is": "^18.2.0",
+      "react-popper": "^2.3.0",
+      "react-table": "^7.8.0",
+      "serve-static": "^1.14.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15",
+      "prettier": "^2.6.2",
+      "pretty-quick": "^3.1.3"
+    }
+  }
+  

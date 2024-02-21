@@ -1,0 +1,58 @@
+{
+    "name": "shopify-frontend-template-react",
+    "version": "1.0.0",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+      "build": "vite build",
+      "dev": "vite",
+      "coverage": "vitest run --coverage"
+    },
+    "type": "module",
+    "engines": {
+      "node": ">= 12.16"
+    },
+    "stylelint": {
+      "extends": "@shopify/stylelint-polaris"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.10.6",
+      "@emotion/styled": "^11.10.6",
+      "@mui/icons-material": "^5.11.16",
+      "@mui/material": "^5.12.2",
+      "@mui/x-data-grid": "^6.2.1",
+      "@mui/x-data-grid-generator": "^6.2.1",
+      "@mui/x-data-grid-pro": "^6.5.0",
+      "@mui/x-license-pro": "^6.0.4",
+      "@popperjs/core": "^2.11.7",
+      "@react-google-maps/api": "^2.18.1",
+      "@shopify/app-bridge": "^3.1.0",
+      "@shopify/app-bridge-react": "^3.1.0",
+      "@shopify/app-bridge-utils": "^3.1.0",
+      "@shopify/polaris": "^10.42.0",
+      "@shopify/stylelint-polaris": "^9.0.2",
+      "@vitejs/plugin-react": "1.2.0",
+      "clsx": "^1.2.1",
+      "faker": "^5.5.3",
+      "material-react-table": "^1.11.0",
+      "react": "^17.0.2",
+      "react-contenteditable": "^3.3.7",
+      "react-dom": "^17.0.2",
+      "react-draggable": "^4.4.5",
+      "react-is": "^18.2.0",
+      "react-popper": "^2.3.0",
+      "react-query": "^3.34.19",
+      "react-resizable-box": "^2.1.0",
+      "react-router-dom": "^6.3.0",
+      "react-table": "^7.8.0",
+      "react-useportal": "^1.0.18",
+      "vite": "^2.8.6"
+    },
+    "devDependencies": {
+      "history": "^5.3.0",
+      "jsdom": "^19.0.0",
+      "prettier": "^2.6.0",
+      "vi-fetch": "^0.6.1"
+    }
+  }
+  

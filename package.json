@@ -1,0 +1,29 @@
+{
+    "name": "invici-invoice-integration-app",
+    "version": "1.0.0",
+    "main": "web/index.js",
+    "license": "UNLICENSED",
+    "scripts": {
+      "shopify": "shopify",
+      "build": "shopify app build",
+      "dev": "shopify app dev",
+      "info": "shopify app info",
+      "generate": "shopify app generate",
+      "deploy": "shopify app deploy"
+    },
+    "dependencies": {
+      "@popperjs/core": "^2.11.7",
+      "@shopify/app": "3.45.1",
+      "@shopify/cli": "3.45.1",
+      "clsx": "^1.2.1",
+      "faker": "^6.6.6",
+      "react-contenteditable": "^3.3.7",
+      "react-dom": "^18.2.0",
+      "react-is": "^18.2.0",
+      "react-popper": "^2.3.0",
+      "react-resizable-box": "^2.1.0",
+      "react-table": "^7.8.0"
+    },
+    "author": "hamshaik"
+  }
+  

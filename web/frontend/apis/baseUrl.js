@@ -1,0 +1,1 @@
+export const baseUrl = 'https://invici-zone-1.inviciai.com';
